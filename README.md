@@ -2,7 +2,7 @@
 
 run `npm init nm` to create a npm module
 
-> Never manually do the versioning, tagging and editing changelog, unleash the power of hooks.
+> Never manually do the linting, versioning, tagging or editing changelog, unleash the power of hooks.
 
 ## Create a npm module
 
@@ -12,10 +12,10 @@ $ npm init nm [path]
 
 ## Automatic workflow of publishing a npm module
 
+All you need to remember is these two simple commands.
+
 ```bash
 $ git commit
-$ git commit
-    ...
 $ npm publish
 ```
 
