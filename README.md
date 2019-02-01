@@ -17,7 +17,7 @@
 [download-image]: https://img.shields.io/npm/dm/create-nm.svg?style=flat-square
 [download-url]: https://npmjs.org/package/create-nm
 
-run `npm init nm` to create a npm module
+`npm init nm` to create a npm module.
 
 > Never manually do the linting, versioning, tagging or editing changelog, unleash the power of hooks.
 
@@ -27,9 +27,9 @@ run `npm init nm` to create a npm module
 $ npm init nm [path]
 ```
 
-## Automatic workflow of publishing a npm module
+## Workflow of publishing a npm module
 
-All you need to remember is these two simple commands.
+commit and publish
 
 ```bash
 $ git commit
