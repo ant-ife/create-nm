@@ -21,9 +21,9 @@
     "lint": "eslint . --fix",
     "test": "nyc --reporter=lcov --reporter=text mocha",
     "ci": "npm run lint && npm run test",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add . && git commit -m 'doc: update changelog' || exit 0",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add .",
     "init-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "preversion": "npm run changelog",
+    "version": "npm run changelog",
     "prepublishOnly": "np --yolo --no-publish"
   },
   "repository": {
