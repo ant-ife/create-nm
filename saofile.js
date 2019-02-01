@@ -6,11 +6,19 @@ module.exports = {
         message: 'What is the name of the new project',
         default: this.outFolder,
         filter: val => val.toLowerCase(),
+        validate: input => {
+          if (!input) return 'name is required';
+          return true;
+        },
       },
       {
         name: 'group',
         message: 'What is your GitHub user/group name',
         store: true,
+        validate: input => {
+          if (!input) return 'name is required';
+          return true;
+        },
       },
     ];
   },
