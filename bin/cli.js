@@ -40,5 +40,4 @@ cli.on('command:!', () => {
 
 cli.help();
 cli.version(require('../package').version);
-
 cli.parse();
