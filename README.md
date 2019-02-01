@@ -19,7 +19,7 @@
 
 `npm init nm` to create a npm module.
 
-> Never manually do the linting, versioning, tagging or editing changelog, unleash the power of hooks.
+> Never manually do the linting, versioning, tagging, editing changelog and pushing commit, unleash the power of hooks.
 
 ## Create a npm module
 
