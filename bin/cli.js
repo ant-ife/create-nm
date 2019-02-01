@@ -10,8 +10,6 @@ updateNotifier({
   updateCheckInterval: 5000, // 5s
 }).notify();
 
-process.exit(0);
-
 cli
   .command('<target-folder>', 'Generate a new project to target folder')
   .option(
