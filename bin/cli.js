@@ -2,8 +2,15 @@
 const path = require('path');
 const sao = require('sao');
 const cli = require('cac')();
+const updateNotifier = require('update-notifier');
+const pkg = require('../package.json');
 
-require('./checkUpdate')();
+updateNotifier({
+  pkg,
+  updateCheckInterval: 5000, // 5s
+}).notify();
+
+process.exit(0);
 
 cli
   .command('<target-folder>', 'Generate a new project to target folder')
