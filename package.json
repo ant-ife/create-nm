@@ -1,0 +1,19 @@
+{
+  "name": "create-nm",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarmotHQ/create-nm.git"
+  },
+  "author": "Yuheng Zhang <zhangyuheng91@gmail.com> (http://zyhack.cn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarmotHQ/create-nm/issues"
+  },
+  "homepage": "https://github.com/MarmotHQ/create-nm#readme"
+}
