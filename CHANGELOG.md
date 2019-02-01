@@ -1,3 +1,12 @@
+## [0.4.2](https://github.com/MarmotHQ/create-nm/compare/v0.4.1...v0.4.2) (2019-02-01)
+
+
+### Bug Fixes
+
+* template files ([f1be658](https://github.com/MarmotHQ/create-nm/commit/f1be658))
+
+
+
 ## [0.4.1](https://github.com/MarmotHQ/create-nm/compare/v0.4.0...v0.4.1) (2019-02-01)
 
 
