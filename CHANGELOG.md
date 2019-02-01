@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/MarmotHQ/create-nm/compare/v0.2.0...v0.4.0) (2019-02-01)
+
+
+### Bug Fixes
+
+* version ([9d15f5e](https://github.com/MarmotHQ/create-nm/commit/9d15f5e))
+
+
+
 # [0.3.0](https://github.com/MarmotHQ/create-nm/compare/v0.2.0...v0.3.0) (2019-02-01)
 
 
