@@ -1,0 +1,52 @@
+{
+  "name": "<%= name %>",
+  "version": "0.1.0",
+  "description": "",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "conventional-changelog": "^3.0.5",
+    "eslint": "^5.12.1",
+    "eslint-config-antife": "^2.0.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.1",
+    "mocha": "^5.2.0",
+    "np": "^4.0.2",
+    "nyc": "^13.1.0"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "test": "nyc --reporter=lcov --reporter=text mocha",
+    "ci": "npm run lint && npm run test",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add . && git commit -m 'doc: update changelog'",
+    "init-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "preversion": "npm run changelog",
+    "prepublishOnly": "np --yolo --no-publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:<%= group %>/<%= name %>.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/<%= group %>/<%= name %>/issues"
+  },
+  "homepage": "https://github.com/<%= group %>/<%= name %>#readme",
+  "license": "MIT"
+}

@@ -1,5 +1,3 @@
-const superb = require('superb');
-
 module.exports = {
   prompts () {
     return [
@@ -10,29 +8,8 @@ module.exports = {
         filter: val => val.toLowerCase(),
       },
       {
-        name: 'description',
-        message: 'How would you descripe the new project',
-        default: `my ${superb()} project`,
-      },
-      {
-        name: 'username',
-        message: 'What is your GitHub username',
-        default: this.gitUser.username || this.gitUser.name,
-        filter: val => val.toLowerCase(),
-        store: true,
-      },
-      {
-        name: 'email',
-        message: 'What is your email?',
-        default: this.gitUser.email,
-        store: true,
-      },
-      {
-        name: 'website',
-        message: 'The URL of your website',
-        default ({ username }) {
-          return `github.com/${username}`;
-        },
+        name: 'group',
+        message: 'What is your GitHub user/group name',
         store: true,
       },
     ];

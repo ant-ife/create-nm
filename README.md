@@ -54,3 +54,7 @@ version :  1.1.1       |  $ npm publish    |
                               npm publish
                               git push
 ```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
