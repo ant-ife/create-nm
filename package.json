@@ -17,7 +17,6 @@
     "test": "ava test",
     "test:snapshot": "ava --verbose --update-snapshots test",
     "ci": "npm run lint && nyc ava test",
-    "init-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add .",
     "prepublishOnly": "np --yolo --no-publish"
   },
