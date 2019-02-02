@@ -109,9 +109,9 @@ $ npm publish
 
 [npm-image]: https://img.shields.io/npm/v/create-nm.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/create-nm
-[travis-image]: https://img.shields.io/travis/MarmotHQ/create-nm.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/MarmotHQ/create-nm/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/MarmotHQ/create-nm
-[codecov-image]: https://img.shields.io/codecov/c/github/MarmotHQ/create-nm.svg?style=flat-square
+[codecov-image]: https://img.shields.io/codecov/c/github/MarmotHQ/create-nm/master.svg?style=flat-square
 [codecov-url]: https://codecov.io/gh/MarmotHQ/create-nm
 [daviddm-image]: https://david-dm.org/MarmotHQ/create-nm.svg?style=flat-square
 [daviddm-url]: https://david-dm.org/MarmotHQ/create-nm

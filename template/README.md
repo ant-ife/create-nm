@@ -23,9 +23,9 @@ $ npm i
 
 [npm-image]: https://img.shields.io/npm/v/<%= name %>.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/<%= name %>
-[travis-image]: https://img.shields.io/travis/<%= group %>/<%= name %>.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/<%= group %>/<%= name %>/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/<%= group %>/<%= name %>
-[codecov-image]: https://img.shields.io/codecov/c/github/<%= group %>/<%= name %>.svg?style=flat-square
+[codecov-image]: https://img.shields.io/codecov/c/github/<%= group %>/<%= name %>/master.svg?style=flat-square
 [codecov-url]: https://codecov.io/gh/<%= group %>/<%= name %>
 [daviddm-image]: https://david-dm.org/<%= group %>/<%= name %>.svg?style=flat-square
 [daviddm-url]: https://david-dm.org/<%= group %>/<%= name %>
