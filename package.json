@@ -14,12 +14,11 @@
   ],
   "scripts": {
     "lint": "eslint --fix .",
-    "test": "npm run lint && ava --verbose test",
+    "test": "ava test",
     "test:snapshot": "ava --verbose --update-snapshots test",
-    "ci": "npm run lint && nyc --reporter=lcov --reporter=text ava test",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add .",
+    "ci": "npm run lint && nyc ava test",
     "init-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "version": "npm run changelog",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add .",
     "prepublishOnly": "np --yolo --no-publish"
   },
   "repository": {
@@ -39,7 +38,7 @@
   },
   "devDependencies": {
     "ava": "^1.2.0",
-    "conventional-changelog": "^3.0.5",
+    "conventional-changelog-cli": "^2.0.11",
     "eslint": "^5.12.1",
     "eslint-config-antife": "^2.0.0",
     "husky": "^1.3.1",
@@ -60,5 +59,11 @@
   },
   "engines": {
     "node": ">=8"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
   }
 }

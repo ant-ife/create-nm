@@ -4,7 +4,7 @@
   "description": "",
   "dependencies": {},
   "devDependencies": {
-    "conventional-changelog": "^3.0.5",
+    "conventional-changelog-cli": "^2.0.11",
     "eslint": "^5.12.1",
     "eslint-config-antife": "^2.0.0",
     "husky": "^1.3.1",
@@ -15,11 +15,10 @@
   },
   "scripts": {
     "lint": "eslint . --fix",
-    "test": "nyc --reporter=lcov --reporter=text mocha",
+    "test": "nyc mocha",
     "ci": "npm run lint && npm run test",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add .",
     "init-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "version": "npm run changelog",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add .",
     "prepublishOnly": "np --yolo --no-publish"
   },
   "repository": {
@@ -42,6 +41,12 @@
   },
   "bugs": {
     "url": "https://github.com/<%= group %>/<%= name %>/issues"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
   },
   "homepage": "https://github.com/<%= group %>/<%= name %>#readme",
   "license": "MIT"
