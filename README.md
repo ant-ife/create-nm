@@ -2,8 +2,8 @@
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
-[![Dependency Status][daviddm-image]][daviddm-url]
-[![Coverage Status][codecov-image]][codecov-url]
+[![Dependency status][daviddm-image]][daviddm-url]
+[![Coverage status][codecov-image]][codecov-url]
 
 `npm init nm` to create a **n**pm **m**odule.
 
