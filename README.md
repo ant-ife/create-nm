@@ -2,8 +2,8 @@
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
-[![Dependency status][daviddm-image]][daviddm-url]
 [![Coverage status][codecov-image]][codecov-url]
+[![Dependency status][daviddm-image]][daviddm-url]
 
 `npm init nm` to create a **n**pm **m**odule.
 
@@ -107,11 +107,11 @@ $ npm publish
 
 [MIT](http://opensource.org/licenses/MIT)
 
-[npm-image]: https://img.shields.io/npm/v/create-nm.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/create-nm.svg?style=flat-square&logo=npm
 [npm-url]: https://npmjs.org/package/create-nm
-[travis-image]: https://img.shields.io/travis/MarmotHQ/create-nm/master.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/MarmotHQ/create-nm/master.svg?style=flat-square&logo=travis
 [travis-url]: https://travis-ci.org/MarmotHQ/create-nm
-[codecov-image]: https://img.shields.io/codecov/c/github/MarmotHQ/create-nm/master.svg?style=flat-square
+[codecov-image]: https://img.shields.io/codecov/c/github/MarmotHQ/create-nm/master.svg?style=flat-square&logo=javascript
 [codecov-url]: https://codecov.io/gh/MarmotHQ/create-nm
 [daviddm-image]: https://david-dm.org/MarmotHQ/create-nm.svg?style=flat-square
 [daviddm-url]: https://david-dm.org/MarmotHQ/create-nm
