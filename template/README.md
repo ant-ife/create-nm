@@ -27,5 +27,5 @@ $ npm i
 [travis-url]: https://travis-ci.org/<%= group %>/<%= name %>
 [codecov-image]: https://img.shields.io/codecov/c/github/<%= group %>/<%= name %>/master.svg?style=flat-square&logo=javascript
 [codecov-url]: https://codecov.io/gh/<%= group %>/<%= name %>
-[daviddm-image]: https://david-dm.org/<%= group %>/<%= name %>.svg?style=flat-square
+[daviddm-image]: https://img.shields.io/david/<%= group %>/<%= name %>.svg?style=flat-square
 [daviddm-url]: https://david-dm.org/<%= group %>/<%= name %>

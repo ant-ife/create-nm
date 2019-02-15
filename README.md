@@ -113,5 +113,5 @@ $ npm publish
 [travis-url]: https://travis-ci.org/MarmotHQ/create-nm
 [codecov-image]: https://img.shields.io/codecov/c/github/MarmotHQ/create-nm/master.svg?style=flat-square&logo=javascript
 [codecov-url]: https://codecov.io/gh/MarmotHQ/create-nm
-[daviddm-image]: https://david-dm.org/MarmotHQ/create-nm.svg?style=flat-square
+[daviddm-image]: https://img.shields.io/david/MarmotHQ/create-nm.svg?style=flat-square
 [daviddm-url]: https://david-dm.org/MarmotHQ/create-nm
