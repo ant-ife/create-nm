@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/MarmotHQ/create-nm/compare/v1.0.3...v1.0.4) (2019-02-15)
+
+
+### Features
+
+* **badge:** use shileds.io url for david ([52ee83c](https://github.com/MarmotHQ/create-nm/commit/52ee83c))
+
+
+
 ## [1.0.3](https://github.com/MarmotHQ/create-nm/compare/v1.0.2...v1.0.3) (2019-02-14)
 
 
