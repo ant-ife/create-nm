@@ -23,6 +23,12 @@ $ npm init nm [name]
 $ npx create-nm [name]
 ```
 
+- use `yarn create`
+
+```bash
+$ yarn create nm [name]
+```
+
 - use `create-nm` cli
 
 ```bash
