@@ -14,7 +14,7 @@
 - use `npm`
 
 ```bash
-# choose one you like
+# choose one of the following methods
 $ npm init nm [name]
 $ npx create-nm [name]
 $ npm i -g create-nm && create-nm [name]
