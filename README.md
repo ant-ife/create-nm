@@ -11,25 +11,19 @@
 
 ## Create a npm module
 
-- use `npm init`
+- use `npm`
 
 ```bash
+# choose one of the following methods
 $ npm init nm [name]
-```
-
-- use `npx`
-
-```bash
 $ npx create-nm [name]
+$ npm i -g create-nm && create-nm [name]
 ```
 
-- use `create-nm` cli
+- use `yarn`
 
 ```bash
-$ npm i -g create-nm
-$ create-nm [name]
-# or
-$ nm [name]
+$ yarn create nm [name]
 ```
 
 ## Workflow of publishing a npm module
