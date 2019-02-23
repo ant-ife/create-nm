@@ -43,7 +43,8 @@
     "husky": "^1.3.1",
     "lint-staged": "^8.1.1",
     "np": "^4.0.2",
-    "nyc": "^13.1.0"
+    "nyc": "^13.1.0",
+    "prettier": "^1.16.4"
   },
   "husky": {
     "hooks": {
@@ -52,6 +53,7 @@
   },
   "lint-staged": {
     "*.js": [
+      "prettier --write",
       "eslint --fix",
       "git add"
     ]
