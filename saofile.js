@@ -26,10 +26,15 @@ module.exports = {
     {
       type: 'add',
       files: '**',
+      filters: {
+        // only for test case, npm will ignore .gitignore
+        '.gitignore': false,
+      },
     },
     {
       type: 'move',
       patterns: {
+        // for npm publish, npm will ignore .gitignore
         gitignore: '.gitignore',
       },
     },
