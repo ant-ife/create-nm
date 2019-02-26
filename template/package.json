@@ -7,6 +7,7 @@
     "conventional-changelog-cli": "^2.0.11",
     "eslint": "^5.12.1",
     "eslint-config-antife": "^2.0.0",
+    "eslint-config-prettier": "^4.0.0",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.1",
     "mocha": "^5.2.0",
@@ -34,6 +35,10 @@
     "*.js": [
       "prettier --write",
       "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
       "git add"
     ]
   },

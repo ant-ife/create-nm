@@ -16,9 +16,10 @@
     "lint": "eslint --fix .",
     "test": "ava test",
     "test:snapshot": "ava --verbose --update-snapshots test",
-    "ci": "npm run lint && nyc ava test",
+    "ci": "npm run eslint-check && npm run lint && nyc ava test",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add .",
-    "prepublishOnly": "np --yolo --no-publish"
+    "prepublishOnly": "np --yolo --no-publish",
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check"
   },
   "repository": {
     "type": "git",
@@ -40,6 +41,7 @@
     "conventional-changelog-cli": "^2.0.11",
     "eslint": "^5.12.1",
     "eslint-config-antife": "^2.0.0",
+    "eslint-config-prettier": "^4.0.0",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.1",
     "np": "^4.0.2",
@@ -55,6 +57,10 @@
     "*.js": [
       "prettier --write",
       "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
       "git add"
     ]
   },
