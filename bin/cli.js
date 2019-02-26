@@ -14,14 +14,12 @@ cli
   .command('<target-folder>', 'Generate a new project to target folder')
   .option(
     '--npm-client <client>',
-    'Choose an npm client for installing packages (\'npm\' | \'yarn\')', {
+    "Choose an npm client for installing packages ('npm' | 'yarn')",
+    {
       default: 'npm',
     }
   )
-  .option(
-    '--registry <registry>',
-    'Use a custom registry for package manager'
-  )
+  .option('--registry <registry>', 'Use a custom registry for package manager')
   .action(async (targetFolder, { npmClient = 'npm', registry }) => {
     // FIXME the default npmClient not works
     const app = sao({

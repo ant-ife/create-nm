@@ -1,5 +1,5 @@
 module.exports = {
-  prompts () {
+  prompts() {
     return [
       {
         name: 'name',
@@ -39,7 +39,7 @@ module.exports = {
       },
     },
   ],
-  async completed () {
+  async completed() {
     this.gitInit();
     await this.npmInstall();
     this.showProjectTips();
