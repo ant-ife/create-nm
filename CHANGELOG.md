@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/MarmotHQ/create-nm/compare/v1.0.5...v1.0.6) (2019-02-26)
+
+
+### Features
+
+* add prettierrc ([#5](https://github.com/MarmotHQ/create-nm/issues/5)) ([7b4a455](https://github.com/MarmotHQ/create-nm/commit/7b4a455))
+
+
+
 ## [1.0.5](https://github.com/MarmotHQ/create-nm/compare/v1.0.4...v1.0.5) (2019-02-23)
 
 
