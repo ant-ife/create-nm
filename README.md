@@ -4,6 +4,7 @@
 [![Build status][travis-image]][travis-url]
 [![Coverage status][codecov-image]][codecov-url]
 [![Dependency status][daviddm-image]][daviddm-url]
+[![Build Status](https://dev.azure.com/zhangyuheng-azure/zhangyuheng/_apis/build/status/MarmotHQ.create-nm?branchName=master)](https://dev.azure.com/zhangyuheng-azure/zhangyuheng/_build/latest?definitionId=1&branchName=master)
 
 `npm init nm` to create a **n**pm **m**odule.
 
