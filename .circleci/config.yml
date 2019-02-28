@@ -19,7 +19,7 @@ jobs:
           command: npm run ci
       - run:
           name: codecov
-          command: 'npm i codecov && codecov'
+          command: 'npm i codecov && npx codecov'
       - store_artifacts:
           path: coverage
           prefix: coverage
