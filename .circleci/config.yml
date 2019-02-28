@@ -22,4 +22,6 @@ jobs:
           command: 'npm i codecov && npx codecov'
       - store_artifacts:
           path: coverage
-          prefix: coverage
+          destination: prefix
+      - store_test_results:
+          path: coverage
