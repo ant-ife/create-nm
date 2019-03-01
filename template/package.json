@@ -4,6 +4,8 @@
   "description": "",
   "dependencies": {},
   "devDependencies": {
+    "@commitlint/config-conventional": "^7.5.0",
+    "commitlint": "^7.5.2",
     "conventional-changelog-cli": "^2.0.11",
     "eslint": "^5.12.1",
     "eslint-config-antife": "^2.0.0",
@@ -28,6 +30,7 @@
   },
   "husky": {
     "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"
     }
   },
@@ -52,6 +55,11 @@
     "reporter": [
       "lcov",
       "text"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
     ]
   },
   "homepage": "https://github.com/<%= group %>/<%= name %>#readme",
