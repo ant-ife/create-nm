@@ -98,6 +98,10 @@ $ npm publish
 - [lint-staged](https://github.com/okonet/lint-staged) Lint files staged by git.
 - [husky](https://github.com/typicode/husky) Prevents bad commit or push (git hooks, pre-commit/precommit, pre-push/prepush, post-merge/postmerge and all that stuff...)].
 
+## Contributors
+
+[![](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/images/0)](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/links/0)[![](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/images/1)](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/links/1)[![](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/images/2)](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/links/2)[![](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/images/3)](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/links/3)[![](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/images/4)](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/links/4)[![](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/images/5)](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/links/5)[![](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/images/6)](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/links/6)[![](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/images/7)](https://sourcerer.io/fame/zhangyuheng/MarmotHQ/create-nm/links/7)
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
