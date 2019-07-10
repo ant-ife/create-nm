@@ -1,3 +1,7 @@
+## [1.0.8](https://github.com/MarmotHQ/create-nm/compare/v1.0.7...v1.0.8) (2019-07-10)
+
+
+
 ## [1.0.7](https://github.com/MarmotHQ/create-nm/compare/v1.0.6...v1.0.7) (2019-03-01)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "create-nm",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "`npm init nm` to create a npm module.",
   "main": "index.js",
   "bin": {
