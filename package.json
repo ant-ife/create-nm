@@ -34,7 +34,7 @@
   "dependencies": {
     "cac": "^6.4.2",
     "sao": "^1.6.1",
-    "update-notifier": "^2.5.0"
+    "update-notifier": "^3.0.1"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^7.5.0",
